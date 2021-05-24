@@ -8,7 +8,7 @@ import reducers from './reducers'
 const createStoreWithMiddleware = applyMiddleware(promiseMiddleware)(createStore)
 
 ReactDOM.render(
-<Provider store={createStore(createStoreWithMiddleware(reducers))}>
+<Provider store={createStoreWithMiddleware(reducers)}>
 <App/>
 </Provider>
 ,
