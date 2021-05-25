@@ -49,6 +49,7 @@ this.props.postuser(this.state)
 
 
 const mapStateToProps = (state) =>{
+    console.log(state)
     return{
         data: state.users
     }
