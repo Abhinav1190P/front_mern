@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export function postuser(data){
 
-const request = axios.post('http://deploy-server1.herokuapp.com/formPost',data)
+const request = axios.post('https://deploy-server1.herokuapp.com/',data)
 .then((response)=>{
     return response.config.data
 })
