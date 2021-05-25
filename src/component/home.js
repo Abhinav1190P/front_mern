@@ -30,7 +30,7 @@ this.props.postuser(this.state)
 
 
     render() {
-        console.log(this.props.data)
+   
         return (
             <div className ="main">
                 <form>
@@ -49,7 +49,7 @@ this.props.postuser(this.state)
 
 
 const mapStateToProps = (state) =>{
-    console.log(state)
+    
     return{
         data: state.users
     }
