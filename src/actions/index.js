@@ -4,7 +4,7 @@ export function postuser(data){
 
 const request = axios.post('https://deploy-server1.herokuapp.com/api/formPost',data)
 .then((response)=>{
-    return response.data
+    return response.config.data
 })
 
 console.log(request)
